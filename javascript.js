@@ -11,7 +11,7 @@ SelScissors.addEventListener('click', () => Game(3))
 
 function Game(PlayerChoice, ComputerChoice) {
     ComputerChoice = (Math.floor(Math.random() * 3) + 1)
-    if((computerScore||playerScore) <5) {
+    if((computerScore && playerScore) <5) {
         if (PlayerChoice === ComputerChoice) {
             console.log("tie")
             score();
