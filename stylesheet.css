@@ -1,0 +1,70 @@
+/**{
+    border: 1px solid red;
+}*/
+body{
+    background-color: #666666;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    padding: 3em;
+}
+.logo img{
+    border-radius: 50%;
+    width: 3em;
+
+}
+.logo{
+    margin-left: auto;
+}
+.menu{
+    display: flex;
+    background-color: lavender;
+    align-items: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+
+    color: black;
+    padding: 5px;
+}
+a:hover{
+    color: #0e79dd;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 10px;
+
+}
+.content img{
+    /*border: 1px solid black;*/
+    margin: 7px;
+    border-radius: 25px;
+    width: 100px;
+    height: 100px;
+}
+.content a{
+    /*cursor: pointer;*/
+    width: 100px;
+    border-radius: inherit;
+}
+.score div{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+.players{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.content button{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
